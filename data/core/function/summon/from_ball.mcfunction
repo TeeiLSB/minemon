@@ -1,0 +1,1 @@
+$summon $(type) ~ ~ ~ {Tags:["CantBox"],Health:$(health),equipment:$(equipment)}

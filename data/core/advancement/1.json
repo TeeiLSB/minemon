@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "kill zombie": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:recovery_compass",
+          "components": {
+            "minecraft:custom_data": "{mob_box:1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:throw_box/charge"
+  }
+}
