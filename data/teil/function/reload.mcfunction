@@ -7,18 +7,13 @@ scoreboard objectives add Box.ThrowStrength dummy
 scoreboard objectives add Temporary dummy
 scoreboard objectives add Constant dummy
 
-scoreboard objectives add UUID dummy
+scoreboard objectives add UUID_1 dummy
+scoreboard objectives add UUID_2 dummy
+scoreboard objectives add UUID_3 dummy
+scoreboard objectives add UUID_4 dummy
 
-
-
-
-
-
-
-
-
-
-
+scoreboard objectives add player_id dummy
+scoreboard objectives add next_player_id dummy
 
 
 

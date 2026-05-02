@@ -2,7 +2,7 @@ $execute as @p[tag=PlayerGet] run tellraw @a [{"text":"§eやったー!"},{"sele
 
 
 $give @p[tag=PlayerGet] recovery_compass\
-    [item_name={"text":"§f捕獲済みボックス"},custom_data={mdata:{health:$(health),type:$(type),equipment:$(equipment)},isboxed:1b},item_model=chest,\
+    [item_name={"text":"§f捕獲済みボックス"},custom_data={mdata:{health:$(health),type:$(type),team:$(team),equipment:$(equipment)},isboxed:1b},item_model=chest,\
     lore=[[{"text":"§eHP: §c$(health)"}],\
           [{"text":"§eType: §c$(type)"}]],max_stack_size=1]
 
