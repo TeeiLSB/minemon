@@ -30,6 +30,7 @@ execute if entity @s[type=horse] run data modify storage lib: mdata.type set val
 execute if entity @s[type=husk] run data modify storage lib: mdata.type set value husk
 execute if entity @s[type=iron_golem] run data modify storage lib: mdata.type set value iron_golem
 execute if entity @s[type=llama] run data modify storage lib: mdata.type set value llama
+execute if entity @s[type=nautilus] run data modify storage lib: mdata.type set value nautilus
 execute if entity @s[type=magma_cube] run data modify storage lib: mdata.type set value magma_cube
 execute if entity @s[type=mooshroom] run data modify storage lib: mdata.type set value mooshroom
 execute if entity @s[type=mule] run data modify storage lib: mdata.type set value mule
@@ -76,6 +77,7 @@ execute if entity @s[type=zombie] run data modify storage lib: mdata.type set va
 execute if entity @s[type=zombie_horse] run data modify storage lib: mdata.type set value zombie_horse
 execute if entity @s[type=zombie_villager] run data modify storage lib: mdata.type set value zombie_villager
 execute if entity @s[type=zombified_piglin] run data modify storage lib: mdata.type set value zombified_piglin
+execute if entity @s[type=zombie_nautilus] run data modify storage lib: mdata.type set value zombie_nautilus
 
 # special
 execute if entity @s[type=ender_dragon] run data modify storage lib: mdata.type set value ender_dragon

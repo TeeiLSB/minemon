@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "kill zombie": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:recovery_compass",
+          "components": {
+            "enchantments": {"core:boxed": 1}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:summon/trigger"
+  }
+}

@@ -15,8 +15,8 @@ scoreboard objectives add UUID_4 dummy
 scoreboard objectives add player_id dummy
 scoreboard objectives add next_player_id dummy
 
-
-
+scoreboard objectives add box_cd dummy
+scoreboard objectives add box_status dummy
 
 
 function teil:const
@@ -28,6 +28,9 @@ execute as @a unless score @s Box.ThrowStrength matches 0.. run scoreboard playe
 
 execute in overworld run forceload add -16 -16 16 16
 forceload add -16 -16 16 16
+
+#シュルカーボックス
+setblock 0 0 0 black_shulker_box
 
 
 say Reloaded!

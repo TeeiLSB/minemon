@@ -203,3 +203,6 @@ scoreboard players set #199 Constant 199
 
 scoreboard players set #200 Constant 200
 
+scoreboard players set #1000 Constant 1000
+scoreboard players set #10000 Constant 10000
+scoreboard players set #100000 Constant 100000
